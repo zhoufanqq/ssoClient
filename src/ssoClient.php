@@ -20,6 +20,7 @@ class ssoClient
             Redisp::del($ticket);
             session()->setId($data['sid']);
             session()->set('logged_user_zf',$data['info']);
+            print_r(session()->all());
         }else{
             echo 'Can not find ticket';
         }
