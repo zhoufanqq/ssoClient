@@ -1,5 +1,5 @@
 {
-    "name": "zhoufanqq/ssoClient",
+    "name": "zhoufanqq/sso-client",
     "type": "library",
     "description": "单点登录客户端（laravel版）",
     "keywords": [
